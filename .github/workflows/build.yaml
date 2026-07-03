@@ -16,14 +16,14 @@ jobs:
     - name: Clone destination files
       uses: actions/checkout@v6
       with:
-        repository: 7GrandDadPGN/VapeCompiled
+        repository: n7xRqLm4Wk9/VapeCompiled
         token: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
         path: "./VapeCompiled"
 
     - name: Clone bundler
       uses: actions/checkout@v6
       with:
-        repository: 7GrandDadPGN/VapeBundler
+        repository: n7xRqLm4Wk9/VapeBundler
         path: "./VapeBundler"
 
     - name: Copy bundler configuration
